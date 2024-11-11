@@ -6,5 +6,7 @@ public class Main {
         System.out.println("안녕하세요안녕하세요");
          System.out.println("안녕하세요");
          System.out.println("안녕하세요");
+         System.out.println("안녕하세요");
+         System.out.println("안녕하세요");
     }
 }
