@@ -55,10 +55,10 @@ public class Variable {
         int b = 6;
         int c = 9;
 
-        int d = a;
-        a = c;
-        c = b;
-        b = d;
+        int d = a; // d = 3
+        a = c; // a = 9
+        c = b; // c = 6
+        b = d; // b = 3
 
         System.out.println("a = " + a);
         System.out.println("b = " + b);
@@ -67,9 +67,9 @@ public class Variable {
         int a1 = 100;
         int b1 = 0;
 
-        int c1 = a1;
-        a1 = b1;
-        b1 = c1;
+        int c1 = a1; // c1 = 100
+        a1 = b1; // a1 = 0
+        b1 = c1; // b1 = 100
         System.out.println("a = " + a1);
         System.out.println("b = " + b1);
 
