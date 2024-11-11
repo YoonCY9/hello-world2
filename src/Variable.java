@@ -33,5 +33,49 @@ public class Variable {
         상품구매수량 += 1;
         상품구매수량 += 1;
         System.out.println("상품구매수량 = " + 상품구매수량);
+
+        int 나이 = 20;
+        나이 += 1;
+        System.out.println("나이 = " + 나이);
+
+        int count = 5;
+        count -= 1;
+        count -= 1;
+        count -= 1;
+        count -= 1;
+        count -= 1;
+        System.out.println("count = " + count);
+
+        int 온도 = 20;
+//        온도 = 온도 - (온도 * 2);
+        온도 = -온도;
+        System.out.println(온도);
+
+        int a = 3;
+        int b = 6;
+        int c = 9;
+
+        int d = a;
+        a = c;
+        c = b;
+        b = d;
+
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+        System.out.println("c = " + c);
+
+        int a1 = 100;
+        int b1 = 0;
+
+        int c1 = a1;
+        a1 = b1;
+        b1 = c1;
+        System.out.println("a = " + a1);
+        System.out.println("b = " + b1);
+
+
+
+
+
     }
 }
